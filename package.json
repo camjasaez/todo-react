@@ -2,14 +2,19 @@
   "name": "todo-webapp",
   "private": true,
   "version": "0.0.1",
+  "resolutions": {
+    "styled-components": "^5"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "babel-plugin-styled-components": "^2.0.7",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react-dom": "^18.0.0",
+    "styled-components": "^5.3.5"
   },
   "devDependencies": {
     "@types/react": "^18.0.0",
