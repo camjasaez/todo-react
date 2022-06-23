@@ -10,6 +10,8 @@ export default defineConfig({
           [
             'babel-plugin-styled-components',
             {
+              ssr: false,
+              pure: true,
               displayName: true,
               fileName: false,
             },
